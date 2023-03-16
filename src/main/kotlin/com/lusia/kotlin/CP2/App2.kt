@@ -1,5 +1,5 @@
 package com.lusia.kotlin.CP2
-import java.util.*
+import java.util.Scanner
 
 fun main() {
     val reader = Scanner(System.`in`)
@@ -12,6 +12,6 @@ fun main() {
         print("b:")
         val b = reader.nextInt()
         val sum = (a..b).filter { it % 2 == 1 }.sum()
-        println("Case ${it+1}: $sum")
+        println("Case ${it+1}: $sum \n")
     }
 }
