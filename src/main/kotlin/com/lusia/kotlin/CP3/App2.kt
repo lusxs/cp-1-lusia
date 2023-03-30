@@ -3,11 +3,10 @@ import java.util.*
 
 fun main(args: Array<String>) {
     val input = Scanner(System.`in`)
-    println("masukan jumlah matriks: ")
     val t = input.nextInt()
 
     for (i in 1..t) {
-        println("masukan ukuran matriks: ")
+        println("N: ")
         val n = input.nextInt()
         val matrix = Array(n) { LongArray(n) }
         var isSymmetric = true
