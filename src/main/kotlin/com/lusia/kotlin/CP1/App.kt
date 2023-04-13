@@ -30,10 +30,6 @@ fun main(a: Array<String>) {
 
     }
 
-//    println("Is 5 prime number? " + isPrimeNumber(5))
-//    println("Is 6 prime number? " + isPrimeNumber(6))
-//    println("Is 7 prime number? " + isPrimeNumber(7))
-
 }
 
 
